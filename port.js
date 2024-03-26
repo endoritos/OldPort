@@ -4,8 +4,12 @@ document.querySelector('#Downloed').addEventListener('click', function() {
 
 document.addEventListener('DOMContentLoaded', function() {
   document.querySelector('#Hire').addEventListener('click', function() {
-    window.location.href = "mailto:Endysempai@gmail.com?subject=We love to set up a meeting with you";
+    window.location.href = "mailto:Endysempai@gmail.com?subject=We love to hire u";
   });
 });
 
-
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelector('#Meeting').addEventListener('click', function() {
+    window.location.href = "mailto:Endysempai@gmail.com?subject=We love to set up a meeting with you";
+  });
+});
